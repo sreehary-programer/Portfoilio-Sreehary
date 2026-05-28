@@ -201,6 +201,11 @@ function handleCommand(text) {
           msg.lang = "en-US";
           speechSynthesis.speak(msg);
         }
+  else if (!command.includes("about") && !command.includes("resume") && !command.includes("contact") && !command.includes("portfolio") && !command.includes("summary")) {
+    let msg = new SpeechSynthesisUtterance("Sorry, I didn't understand that command. Please try saying 'About', 'Resume', 'Contact', 'Portfolio', or 'Summary'.");
+    msg.lang = "en-US";
+    speechSynthesis.speak(msg);
+  }
 }
     
   // Example redirect:
