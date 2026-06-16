@@ -197,7 +197,7 @@ function handleCommand(text) {
     clickNav("portfolio");
   }
   else if (command.includes("summary")) {
-          let msg = new SpeechSynthesisUtterance("I am Sreehary Shyju, a dedicated Bachelor of Computer Applications (BCA) student at Dr APJ Abdul Kalam College of Professional Studies Ulikkal, with a strong interest in software development and emerging technologies. I have practical experience in web development using HTML, CSS, PHP, and MySQL, and I actively explore AI-based image generation to integrate innovation with design. I completed my Higher Secondary Education (Plus Two) at SHHSS Angadikadavu. I am passionate about continuous learning, creative problem-solving, and applying my technical knowledge to develop efficient and user-friendly solutions.");
+          let msg = new SpeechSynthesisUtterance("I am Sreehary Shyju, a Bachelor of Computer Applications (BCA) graduate from Dr. APJ Abdul Kalam College of Professional Studies, Ulikkal, with a strong interest in software development and emerging technologies. I have practical experience in web development using HTML, CSS, PHP, and MySQL, and I actively explore AI-based image generation to combine innovation with creative design. I completed my Higher Secondary Education (Plus Two) at SHHSS Angadikadavu. Passionate about continuous learning, creative problem-solving, and technology-driven innovation, I am eager to apply my technical skills and knowledge to develop efficient, user-friendly, and impactful solutions in a professional environment.");
           msg.lang = "en-US";
           speechSynthesis.speak(msg);
         }
